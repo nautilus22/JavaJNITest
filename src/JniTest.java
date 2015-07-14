@@ -13,4 +13,6 @@ public class JniTest {
     public native int    AddINT(int arg1, int arg2);
     public native double addDBL(double arg1, double arg2);
     public native String getStr(String str);
+
+    int a = 0;
 }
